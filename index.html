@@ -1,73 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team Bio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Link to external CSS file -->
+  </head>
+  <body>
+    <header>
+      <h1>Meet Our Team</h1>
+      <!-- Example team logo -->
+      <img src="img/team-logo.png" alt="Team Logo" class="team-logo" />
 
-<header>
-    <h1>Meet Our Team</h1>
-    <!-- Example team logo -->
-    <img src="img/team-logo.png" alt="Team Logo" class="team-logo">
-
-    <!-- Navigation menu to switch between sections -->
-    <nav>
+      <!-- Navigation menu to switch between sections -->
+      <nav>
         <button onclick="showSection('bios')">Team Bios</button>
         <button onclick="showSection('vision')">Team Vision</button>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<!-- Team bios section (default section) -->
-<div id="bios" class="container">
-    <!-- Each card represents an individual team member -->
-    <div class="card">
+    <!-- Team bios section (default section) -->
+    <div id="bios" class="container">
+      <!-- Each card represents an individual team member -->
+      <div class="card">
         <h2>Chris Pericli</h2>
         <p>Cybersecurity Student</p>
-        <img src="Jimmy_1.heif" alt="Chris Pericli" class="profile-pic">
+        <img src="Jimmy_1.heif" alt="Chris Pericli" class="profile-pic" />
         <button onclick="toggleBio('bio1')">Show Bio</button>
-        <p id="bio1" class="bio">Chris has frontend development experience including skills/proficiencies such as HTML, CSS, and JavaScript.
-            <a href="https://github.com/cpericli" target="_blank">GitHub Profile</a> </p>
-    </div>
-    <div class="card">
+        <p id="bio1" class="bio">
+          Chris has frontend development experience including
+          skills/proficiencies such as HTML, CSS, and JavaScript.
+          <a href="https://github.com/cpericli" target="_blank"
+            >GitHub Profile</a
+          >
+        </p>
+      </div>
+      <div class="card">
         <h2>Jane Smith</h2>
         <p>Backend Developer</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Jane is a backend developer specializing in server-side logic and database management.</p>
-    </div>
-    <div class="card">
-        <h2>Emily Johnson</h2>
-        <p>UI/UX Designer</p>
+        <p id="bio2" class="bio">
+          Jane is a backend developer specializing in server-side logic and
+          database management.
+        </p>
+      </div>
+      <div class="card">
+        <h2>Hersie Gonzalez</h2>
+        <p>Software Engineer Student</p>
+        <img src="./img/ATLA-angg.webp" />
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
-    </div>
-    <div class="card">
+        <p id="bio3" class="bio">
+          Emily is a UI/UX designer with a passion for creating user-friendly
+          interfaces.
+        </p>
+      </div>
+      <div class="card">
         <h2>Nora Miller</h2>
         <p>Cybersecurity Student</p>
-        <img src="img/istanbul.jpg" alt="Nora Miller">
+        <img src="img/istanbul.jpg" alt="Nora Miller" />
         <button onclick="toggleBio('bio4')">Show Bio</button>
-        <p id="bio4" class="bio">Nora is a cybersecurity student who gaining experience in software through this project! Some of my favorite coding languages are Python and HTML. <br>
-        <a href="https://github.com/nmille73-gif/nmille73-gif.github.io">Nora's GitHub</a></p>
+        <p id="bio4" class="bio">
+          Nora is a cybersecurity student who gaining experience in software
+          through this project! Some of my favorite coding languages are Python
+          and HTML. <br />
+          <a href="https://github.com/nmille73-gif/nmille73-gif.github.io"
+            >Nora's GitHub</a
+          >
+        </p>
+      </div>
     </div>
-</div>
 
-<!-- Team vision/mission statement section (hidden by default) -->
-<div id="vision" class="container" style="display: none;">
-    <h2>Our Mission Statement</h2>
-    <p>
-        We aim to create a creative environment that encourages new ideas, inspires intrinsic motivation, and promotes empathy.
-        To support this vision, our team follows a few key principles:
-    </p>
-    <ul>
-        <li><strong>Openness:</strong> Don’t be afraid to ask for help or communicate blockers and setbacks.</li>
-        <li><strong>Accountability:</strong> Complete the tasks you are responsible for, and ask for help or more time when needed.</li>
+    <!-- Team vision/mission statement section (hidden by default) -->
+    <div id="vision" class="container" style="display: none">
+      <h2>Our Mission Statement</h2>
+      <p>
+        We aim to create a creative environment that encourages new ideas,
+        inspires intrinsic motivation, and promotes empathy. To support this
+        vision, our team follows a few key principles:
+      </p>
+      <ul>
+        <li>
+          <strong>Openness:</strong> Don’t be afraid to ask for help or
+          communicate blockers and setbacks.
+        </li>
+        <li>
+          <strong>Accountability:</strong> Complete the tasks you are
+          responsible for, and ask for help or more time when needed.
+        </li>
         <li><strong>Timeliness:</strong> Create a schedule and stick to it.</li>
-    </ul>
-</div>
+      </ul>
+    </div>
 
-<script src="script.js"></script> <!-- Link to external JavaScript file -->
-
-</body>
+    <script src="script.js"></script>
+    <!-- Link to external JavaScript file -->
+  </body>
 </html>
