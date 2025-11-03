@@ -21,12 +21,73 @@
     <!-- Example team logo -->
     <img src="img/team_logo.png" alt="Team Logo" class="team-logo">
 
+
     <!-- Navigation menu to switch between sections -->
     <nav>
         <button onclick="showSection('bios')">Team Bios</button>
         <button onclick="showSection('vision')">Team Vision</button>
     </nav>
 </header>
+
+        <!-- Team bios section (default section) -->
+        <div id="bios" class="container">
+          <!-- Each card represents an individual team member -->
+          <div class="card">
+            <h2>Chris Pericli</h2>
+            <p>Cybersecurity Student</p>
+            <img src="img/jimmy.jpg" alt="Chris Pericli" class="profile-pic" />
+            <br />
+            <button onclick="toggleBio('bio1')">Show Bio</button>
+            <p id="bio1" class="bio">
+              Chris has frontend development experience including
+              skills/proficiencies such as HTML, CSS, and JavaScript.
+              <a href="https://github.com/cpericli" target="_blank"
+                >GitHub Profile</a
+              >
+            </p>
+          </div>
+          <div class="card">
+            <h2>Soumyota Sen</h2>
+            <p>Web Developer</p>
+            <img src="img/me.jpeg" alt="Soumyota Sen" class="profile-pic" />
+            <br />
+            <button onclick="toggleBio('bio2')">Show Bio</button>
+            <p id="bio2" class="bio">
+              Soumyota is a web developer with a strong passion for data-driven
+              problem-solving. She enjoys designing efficient APIs with FastAPI
+              and Python, and exploring insights through data analytics, data
+              visualization and machine learning.
+              <a href="https://github.com/SOUSEN444">Soumyota's GitHub</a>
+            </p>
+          </div>
+          <div class="card">
+            <h2>Hersie Gonzalez</h2>
+            <p>Software Engineer Student</p>
+            <img src="./img/ATLA-angg.webp" />
+            <button onclick="toggleBio('bio3')">Show Bio</button>
+            <p id="bio3" class="bio">
+              Hersie is a software engineer student and his favorite coding
+              language is Java.
+              <a href="https://github.com/HersieG"
+                >https://github.com/HersieG</a
+              >
+            </p>
+          </div>
+          <div class="card">
+            <h2>Nora Miller</h2>
+            <p>Cybersecurity Student</p>
+            <img src="img/istanbul.jpg" alt="Nora Miller" />
+            <br />
+            <button onclick="toggleBio('bio4')">Show Bio</button>
+            <p id="bio4" class="bio">
+              Nora is a cybersecurity student who is gaining experience in
+              software through this project! Some of her favorite coding
+              languages are Python and HTML. <br />
+              <a href="https://github.com/nmille73-gif">Nora's GitHub</a>
+            </p>
+          </div>
+        </div>
+
 
 <!-- Team bios section (default section) -->
 <div id="bios" class="container">
