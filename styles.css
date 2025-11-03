@@ -46,7 +46,7 @@ header nav button:hover {
     margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: space-between;
 }
 
 /* Card styling for individual team bios */
@@ -56,8 +56,7 @@ header nav button:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
-    width: calc(50% - 20px);
-    box-sizing: border-box;
+    flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
 }
@@ -90,8 +89,8 @@ button {
 button:hover {
     background: #36213E;
 }
-.profile-pic {
+.card img {
     border-radius: 5px;
-    width: 60%;
-    height: 70%;
+    width: 70%;
+    height: 50%;
 }
