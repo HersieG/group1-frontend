@@ -90,7 +90,7 @@ button:hover {
   background: #36213e;
 }
 .card img {
-  border-radius: 5px;
-  width: 150px;
-  height: 200px;
+    border-radius: 5px;
+    width: 70%;
+    height: 50%;
 }
