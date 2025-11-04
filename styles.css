@@ -91,6 +91,6 @@ button:hover {
 }
 .card img {
   border-radius: 5px;
-  width: 70%;
-  height: 50%;
+  width: 25vh;
+  height: 25vh;
 }
